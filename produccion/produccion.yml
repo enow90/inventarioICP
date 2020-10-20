@@ -1,0 +1,17 @@
+all:
+    children:
+        master:
+            hosts:
+                master[01:03].kuber.pro
+        worker:
+            hosts:
+                worker[00:99].kuber.pro
+        etc:
+            hosts:
+                etc[01:03].kuber.pro
+        proxies:
+            hosts:
+                proxies[01:10].kuber.pro
+        management:
+            hosts:
+                management[01:10].kuber.pre
